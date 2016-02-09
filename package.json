@@ -4,7 +4,7 @@
   "description": "Debouncing functions made easy",
   "main": "index.js",
   "scripts": {
-    "test": "apm test"
+    "test": "node ./test.js"
   },
   "repository": {
     "type": "git",

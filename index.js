@@ -1,6 +1,6 @@
 'use strict'
 
-function debounce(callback, timeout, aggressive = false) {
+function debounce(callback, timeout, aggressive) {
   let timer = null
   let latestParameter
   function later() {
