@@ -1,0 +1,23 @@
+{
+  "name": "sb-debounce",
+  "version": "1.0.0",
+  "description": "Debouncing functions made easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "apm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steelbrain/debounce"
+  },
+  "keywords": [
+    "debounce",
+    "function"
+  ],
+  "author": "steelbrain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steelbrain/debounce/issues"
+  },
+  "homepage": "https://github.com/steelbrain/debounce"
+}
