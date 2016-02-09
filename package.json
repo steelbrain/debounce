@@ -1,6 +1,6 @@
 {
   "name": "sb-debounce",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Debouncing functions made easy",
   "main": "index.js",
   "scripts": {
