@@ -75,3 +75,34 @@ const debounce = require('./')
     invariant(called === 1)
   }, 80)
 }
+
+{
+  "provides proper this value";
+  let called = 0
+  let that = {something: true}
+  let debounced = debounce(function() {
+    invariant(this === that)
+    ++called
+  }, 50)
+  debounced.call(that)
+  setTimeout(function() {
+    invariant(called === 1)
+  }, 60)
+}
+
+{
+  "calls using the latest this";
+  let called = 0
+  let that = {something: true}
+  let debounced = debounce(function() {
+    invariant(this === that)
+    ++called
+  }, 50)
+  debounced.call({})
+  debounced.call({})
+  debounced.call({})
+  debounced.call(that)
+  setTimeout(function() {
+    invariant(called === 1)
+  }, 60)
+}
