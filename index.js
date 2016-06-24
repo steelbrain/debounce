@@ -1,9 +1,9 @@
 'use strict'
 
 function debounce(callback, timeout, aggressive) {
-  let timer = null
-  let latestParameter
-  let latestThis
+  var timer = null
+  var latestParameter
+  var latestThis
   function later() {
     timer = null
     callback.call(latestThis, latestParameter)
