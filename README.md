@@ -1,5 +1,7 @@
 # Debounce
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/debounce.svg)](https://greenkeeper.io/)
+
 A lightweight utility to handle your debounce needs
 
 ## Installation
