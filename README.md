@@ -1,6 +1,6 @@
 # Debounce
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/debounce.svg)](https://greenkeeper.io/)
+### This package has been deprecated in favor of [lodash.debounce](https://lodash.com/docs/latest#debounce)
 
 A lightweight utility to handle your debounce needs
 
